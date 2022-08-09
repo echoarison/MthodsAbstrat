@@ -20,7 +20,7 @@ namespace MethodsAbstratos.Entities
         //method(abstrato)
         public override double Area()
         {
-            return Math.PI * Math.Sqrt(Radius); //Ou poderia ser 3.14 * Radius * Radius
+            return Math.PI * Math.Pow(Radius,2); //Ou poderia ser 3.14 * Radius * Radius
         }
 
     }
